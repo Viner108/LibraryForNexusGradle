@@ -1,6 +1,7 @@
 package org.example;
 
 public class Unit {
+
     private int row;
 
     public int getRow() {
