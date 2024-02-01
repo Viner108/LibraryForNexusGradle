@@ -4,7 +4,7 @@ plugins {
 }
 
 group 'com.lib'
-version '1.0.2'
+version '1.0.3-SNAPSHOT'
 
 repositories {
     mavenCentral()
@@ -23,10 +23,10 @@ publishing {
     }
     publications {
         mavenJava(MavenPublication) {
-//            from components.java
+            from components.java
             groupId = 'com.lib'
             artifactId = 'LibraryForNexusGradle'
-            version = '1.0.2'
+            version = '1.0.3-SNAPSHOT'
         }
     }
 }
